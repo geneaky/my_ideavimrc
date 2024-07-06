@@ -1,0 +1,10 @@
+imap jk <Esc>
+imap kj <Esc>
+
+set NERDTree
+set commentary
+set multiple-cursors
+
+map <C-n> <A-n>
+
+inoremap <C-S-J> :action EditorCloneCaretBelow<CR>
