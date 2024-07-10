@@ -4,7 +4,11 @@ imap kj <Esc>
 set NERDTree
 set commentary
 set multiple-cursors
+set ignorecase smartcase
 
-map <C-n> <A-n>
+
+map <C-n> <Plug>NextWholeOccurrence
+xmap <C-x> <Plug>SkipOccurrence
+xmap <C-p> <Plug>RemoveOccurrence
 
 inoremap <C-S-J> :action EditorCloneCaretBelow<CR>
