@@ -11,4 +11,11 @@ map <C-n> <Plug>NextWholeOccurrence
 xmap <C-x> <Plug>SkipOccurrence
 xmap <C-p> <Plug>RemoveOccurrence
 
+inoremap <C-H> <Esc>bi
+inoremap <C-L> <Esc>ea
+
 inoremap <C-S-J> :action EditorCloneCaretBelow<CR>
+
+nnoremap <C-m> :action ToggleBookmark<CR>
+nnoremap <C-]> :action GotoNextBookmark<CR>
+nnoremap <C-[> :action GotoPreviousBookmark<CR>
